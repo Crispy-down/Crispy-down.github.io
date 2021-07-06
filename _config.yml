@@ -1,7 +1,7 @@
 # Setup
-title: Not Pure Poole
-description: A simple, beautiful, and powerful Jekyll theme for blogs
-url: https://vszhub.github.io
+title: Crispy's Code Singularity
+description: Coding is too hard for me - except before blog it.
+url: https://crispy-down.github.io
 avatar: /avatar.jpeg
 paginate: 5
 permalink: pretty
@@ -28,15 +28,11 @@ exclude:
   - not-pure-poole.gemspec
 
 # Optimize Jekyl SEO Tag
-twitter:
-  username: vszhub
-  card: summary
 logo: logo.png
 social:
-  name: Songzi Vong
+  name: kwun woo Kwon
   links:
-    - https://twitter.com/vszhub
-    - https://github.com/vszhub
+    - https://github.com/Crispy-down
 google_site_verification: xxxxx
 lang: en
 
@@ -54,6 +50,6 @@ sass:
 
 # Specify the author for blog posts
 author:
-  name: Songzi Vong
-  url: https://github.com/vszhub/
-  email: vszhub@gmail.com
+  name: kwun woo Kwon
+  url: https://github.com/Crispy-down
+  email: brian3092@naver.com
