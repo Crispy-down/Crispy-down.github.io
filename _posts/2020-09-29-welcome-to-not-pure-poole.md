@@ -3,7 +3,7 @@ layout: post
 title: 백준 2231번 "분해합"
 date: 2021-07-18 20:00 +0800
 last_modified_at: 2020-10-01 01:08:25 +0800
-tags: [일상]
+tags: [백준,문제풀이]
 toc:  false
 ---
 <strong>Question:</strong>
@@ -28,7 +28,8 @@ toc:  false
 <strong>Example Case:</strong>
 
 Input: 
-216
+216 
+
 Output:
 198
 
@@ -41,20 +42,40 @@ Output:
 <em> x + y + z + 100x + 10y + z = N </em>
 의 값을 구하는 것이다.
 
-따라서, 처음엔
+따라서, 처음엔 N의 값을 입력받은 후,
+N과 K의 관계를 이용하여 코드를 작성하였다.
+
+예를 들자면,
+N = K(원래 세자리수) + (K-K%100)/ 100 (백의 자리) + K%100-K&10(십의 자리) + K%10(일의 자리)
+으로 작성하였는데, 이는 문제 파악이 제대로 되지 않아서, N의 값의 범위를 그만 놓치고 코드를 작성해버렸다.
+이는 N이 세자리수 한정일때나 성립되는 식이며,해당 사용중이던 언어 C++도 익숙하지 않아 문제풀이에 막혔다.
+결국 python 언어를 통해 문제 풀이에 접근하였다.
+str 함수를 사용하여,한자리수 숫자를 각각 분리하여 저장한뒤,
+분해합의 정의를 이용하여 답을 도출해 내었다.
+
+
 {% highlight js linenos %}
-#include <iostream>
 
-using namespace std;
+N = int(input()) # N에 대한 입력
 
-int main() {
-  int N,K = 0;
-  cin >> N;
+result = 0 #N과 비교하기위한 변수
 
-}
-
+for i in range(1,N+1): 
+    A = list(map(int,str(i))) #리스트안에,자리수를 나눠 숫자 하나씩 저장
+    result = i + sum(A) #분해합의 정의,본래의 수와 각 자리수를 합
+    if result == N : #값에 대한 비교 - 맞는경우
+        print(i)
+        break
+    if i == N: #분해합이 안만들어지는 경우
+        print(0)
 
 {% endhighlight %}
+
+
+<em>Conclusion</em>
+문제를 파악할 때 더 깊이 생각해보자..
+변수의 범위에 유의하자.
+
 
 
 
