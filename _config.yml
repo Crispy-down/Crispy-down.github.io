@@ -46,8 +46,8 @@ sass:
 # google_analytics: UA-000000-0
 
 # Replace this value and uncomment to enable Disqus
-disqus_url: https://disqus.com/by/disqus_VBwOekzsOI/
-disqus_id: Crispy
+disqus: https://disqus.com/by/disqus_VBwOekzsOI/
+
 
 
 # Specify the author for blog posts
