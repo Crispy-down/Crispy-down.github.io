@@ -2,10 +2,10 @@
 title: Crispy's Code Singularity
 description: do not be the one who blame oneself.
 url: https://crispy-down.github.io
-avatar: /assets/avatar.jpg
+avatar: /assets/avatar2.png
 paginate: 5
 permalink: pretty
-cover_image: /assets/wallpaper.jpg
+cover_image: /assets/wall.jpg
 
 # Gems
 plugins:
