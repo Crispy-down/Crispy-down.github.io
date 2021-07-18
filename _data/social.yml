@@ -1,9 +1,9 @@
 - title: Email
-  url: mailto://vszhub@gmail.com
+  url: brian3092@naver.com
   icon: fas fa-envelope
-- title: Twitter
-  url: https://twitter.com/vszhub
-  icon: fab fa-twitter
+- title: Baekjoon
+  url: https://www.acmicpc.net/user/crispy3092
+  icon: far fa-question-circle
 - title: GitHub
-  url: https://github.com/vszhub/not-pure-poole
+  url: https://github.com/Crispy-down
   icon: fab fa-github
