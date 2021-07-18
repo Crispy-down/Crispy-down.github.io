@@ -1,11 +1,11 @@
 # Setup
 title: Crispy's Code Singularity
-description: Coding is too hard for me - except before blog it.
+description: do not be the one who blame oneself.
 url: https://crispy-down.github.io
-avatar: /avatar.jpeg
+avatar: /assets/avatar.jpg
 paginate: 5
 permalink: pretty
-cover_image: /Users/user/Pictures/81272784_1569833769327_1_600x600 (1).jpg
+cover_image: /assets/wallpaper.jpg
 
 # Gems
 plugins:
