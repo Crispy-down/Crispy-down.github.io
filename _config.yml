@@ -6,7 +6,7 @@ baseurl : ""
 avatar: /assets/avatar2.png
 paginate: 5
 permalink: pretty
-cover_image: /assets/wall231.jpg
+cover_image: /assets/wall2.jpg
 
 # Gems
 plugins:
